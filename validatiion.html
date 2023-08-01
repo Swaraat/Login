@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="login/istockphoto-1135341047-612x612.jpg">
+    <title>Login</title>
+    <script src="validation.js" defer></script>
+    <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+    <div id="form-con" >
+        <h2>login</h2>
+    <form onsubmit="return validateFrom()">
+        <input type="text" placeholder="User Name" id="username"> <br>
+<p id="usererror" class="error"></p>
+
+
+        <input type="password" placeholder="User password" id="password"> <br>
+      
+        <p id="passerror" class="error"></p>
+
+        <input type="submit">
+
+    </form>
+    </div>
+</body>
+</html>
